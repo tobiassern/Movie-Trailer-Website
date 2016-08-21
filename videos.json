@@ -1,0 +1,128 @@
+{
+ "movies":[
+         {
+         	"title": "Toy Story",
+         	"storyline": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=KYz2wyBy3kc",
+         	"duration": "1h 21min",
+         	"rating": "8.3"
+         },
+         {
+         	"title": "Avatar",
+         	"storyline": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=d1_JBMrrYw8",
+         	"duration": "2h 42min",
+         	"rating": "7.9"
+         },
+         {
+         	"title": "The Shawshank Redemption",
+         	"storyline": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+         	"poster": "http://www.impawards.com/1994/posters/shawshank_redemption_ver1.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+         	"duration": "2h 22min",
+         	"rating": "9.3"
+         },
+         {
+         	"title": "The Dark Knight",
+         	"storyline": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=yrJL5JxEYIw",
+         	"duration": "2h 32min",
+         	"rating": "9.0"
+         },
+         {
+         	"title": "Schindler's List",
+         	"storyline": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=JdRGC-w9syA",
+         	"duration": "3h 15min",
+         	"rating": "8.9"
+         },
+         {
+         	"title": "12 Angry Men",
+         	"storyline": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/9/91/12_angry_men.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=fSG38tk6TpI",
+         	"duration": "1h 36min",
+         	"rating": "8.9"
+         },
+         {
+         	"title": "Pulp Fiction",
+         	"storyline": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+         	"duration": "2h 34min",
+         	"rating": "8.9"
+         },
+         {
+         	"title": "Fight Club",
+         	"storyline": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=SUXWAEX2jlg",
+         	"duration": "2h 19min",
+         	"rating": "8.8"
+         },
+         {
+         	"title": "Forrest Gump",
+         	"storyline": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+         	"duration": "2h 22min",
+         	"rating": "8.8"
+         }
+        ],
+  "tvshows":[
+         {
+         	"title": "The Sopranos",
+         	"storyline": "New Jersey mob boss, Tony Soprano, deals with personal and professional issues in his home and business life.",
+         	"poster": "http://www.cineparadise.com/wp-content/uploads/2014/08/first-season-the-sopranos-poster.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=wrN2k3qGbVA",
+         	"duration": "55min",
+         	"rating": "9.2",
+         	"episodes": "86",
+         	"seasons": "6"
+         },
+         {
+         	"title": "Breaking Bad",
+         	"storyline": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's financial future.",
+         	"poster": "http://www.impawards.com/tv/posters/breaking_bad_ver5_xlg.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
+         	"duration": "49min",
+         	"rating": "9.5",
+         	"episodes": "62",
+         	"seasons": "5"
+         },
+         {
+         	"title": "Lost",
+         	"storyline": "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/PosterTwo.jpg/250px-PosterTwo.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=KTu8iDynwNc",
+         	"duration": "44min",
+         	"rating": "8.4",
+         	"episodes": "117",
+         	"seasons": "6"
+         },
+         {
+         	"title": "Oz",
+         	"storyline": "A series chronicling the daily activities of an unusual prison facility and its criminal inhabitants.",
+         	"poster": "https://upload.wikimedia.org/wikipedia/en/9/9d/Ozposter.jpg",
+         	"trailer": "https://www.youtube.com/watch?v=fxGJyYb9_po",
+         	"duration": "55min",
+         	"rating": "8.8",
+         	"episodes": "56",
+         	"seasons": "6"
+         },
+         {
+         	"title": "Sons of Anarchy",
+         	"storyline": "A man in his early 30s struggles to find a balance in his life between being a new dad and his involvement in a motorcycle club.",
+         	"poster": "http://vignette1.wikia.nocookie.net/cinemorgue/images/d/d0/Sons_of_Anarchy_Poster.jpg/revision/latest?cb=20141028181956",
+         	"trailer": "https://www.youtube.com/watch?v=_03DBXL3Srw",
+         	"duration": "45min",
+         	"rating": "8.6",
+         	"episodes": "92",
+         	"seasons": "7"
+         }
+        ]
+}

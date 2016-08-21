@@ -1,0 +1,71 @@
+body {
+    padding-top: 80px;
+}
+.video-tile {
+	transition: transform .2s ease;
+}
+.video-tile .video-tile-inner {
+	position: relative;
+	transition: all .5s ease;
+	cursor: pointer;
+	opacity: 0;
+	transform: translateY(100px);
+	padding-bottom: 15px;
+}
+.video-tile.loaded .video-tile-inner {
+	opacity: 1;
+	transform: translateY(0);
+}
+.video-tile:hover {
+	transform: scale(1.03);
+}
+.video-tile .video-tile-top {
+	padding: 5px;
+	background-color: #F7DD72;
+	color: #ffffff;
+
+}
+.video-tile .video-type {
+	padding: 4px 8px;
+	background-color: #5AB1BB;
+	border-radius: 3px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+}
+.video-tile a {
+	text-decoration: none;
+	color: inherit;
+}
+.video-tile .video-tile-title {
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin: 0;
+	white-space: nowrap;
+	width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-tile.type-movie .video-type {
+	background-color: #5AB1BB;
+}
+.video-tile.type-tvshow .video-type {
+	background-color: #A5C882;
+}
+
+.video-tile .extra-info span {
+	display: inline;
+	white-space: nowrap;
+}
+.video-tile .extra-info span:not(:first-of-type):before {
+	content: ' | ';
+}
+.video-tile .video-tile-poster {
+	/*Solving the problem with posters being of equal size*/
+	width: 100%;
+	padding-bottom: 151.851852%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
