@@ -61,7 +61,7 @@ body {
 	content: ' | ';
 }
 .video-tile .video-tile-poster {
-	/*Solving the problem with posters being of equal size*/
+	/*Solving the problem with posters not being of equal size*/
 	width: 100%;
 	padding-bottom: 151.851852%;
 	background-size: cover;

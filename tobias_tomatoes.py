@@ -88,6 +88,7 @@ tvshows_tile_content = '''
 </div>
 '''
 
+
 def create_video_tiles_content(movies, tvshows):
     # The HTML content for this section of the page
     # Loops through the list of movies and the lists of tvshows

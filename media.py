@@ -1,8 +1,7 @@
 class Video():
     # Parent class for both movies and tv-shows
 
-    """
-    This class is a parent class to Movie and TvShow.
+    """This class is a parent class to Movie and TvShow.
     Use media.Movie() or media.TvShow() instead
     """
 
@@ -18,8 +17,7 @@ class Video():
 class Movie(Video):
     # The class to create a movie
 
-    """
-    media.Movie(title, storyline, poster, trailer, duration, rating)
+    """media.Movie(title, storyline, poster, trailer, duration, rating)
     title = Title of the Movie
     storyline = Storyline of the movie
     poster = url to the poster of the movie (image file)
@@ -36,8 +34,7 @@ class Movie(Video):
 class TvShow(Video):
     # The class to create a tv-show. Added episodes and seasons.
 
-    """
-    media.Movie(
+    """media.Movie(
     title, storyline, poster, trailer, duration, rating, episodes, seasons
     )
     title = Title of the tv-show
