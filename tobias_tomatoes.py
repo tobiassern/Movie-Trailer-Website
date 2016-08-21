@@ -118,11 +118,12 @@ def create_video_tiles_content(movies, tvshows):
         )
     return content
 
+
 def open_videos_page(movies, tvshows):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
-    # Replace the video tiles placeholder generated content, sends both the movies and tvshows
+    # Replace the video tiles placeholder generated content
     rendered_content = main_page_content.format(
         video_tiles=create_video_tiles_content(movies, tvshows)
     )
