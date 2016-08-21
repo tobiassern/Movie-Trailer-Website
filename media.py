@@ -1,4 +1,4 @@
-class Video():
+class Video(object):
     # Parent class for both movies and tv-shows
 
     """This class is a parent class to Movie and TvShow.
@@ -27,8 +27,8 @@ class Movie(Video):
     """
 
     def __init__(self, title, storyline, poster, trailer, duration, rating):
-        Video.__init__(
-            self, title, storyline, poster, trailer, duration, rating)
+        super(Movie, self).__init__(
+            title, storyline, poster, trailer, duration, rating)
 
 
 class TvShow(Video):
@@ -48,7 +48,7 @@ class TvShow(Video):
     def __init__(
             self, title, storyline, poster, trailer,
             duration, rating, episodes, seasons):
-        Video.__init__(
-            self, title, storyline, poster, trailer, duration, rating)
+        super(TvShow, self).__init__(
+            title, storyline, poster, trailer, duration, rating)
         self.episodes = episodes
         self.seasons = seasons
