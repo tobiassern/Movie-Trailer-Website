@@ -25,13 +25,25 @@ movies_list = {}
 
 # Loops through the json array for all movies and creates a movie for each
 for index, movie in enumerate(videos["movies"]):
-	movies_list[index] = media.Movie(movie["title"],movie["storyline"],movie["poster"],movie["trailer"],movie["duration"],movie["rating"])
+	movies_list[index] = media.Movie(movie["title"],
+		movie["storyline"],
+		movie["poster"],
+		movie["trailer"],
+		movie["duration"],
+		movie["rating"])
 
 # Creates the tvshows_list
 tvhshows_list = {}
 
 # Loops through the json array for all tv-shows and creates a tv-show for each
 for index, tvhshow in enumerate(videos["tvshows"]):
-	tvhshows_list[index] = media.TvShow(tvhshow["title"],tvhshow["storyline"],tvhshow["poster"],tvhshow["trailer"],tvhshow["duration"],tvhshow["rating"],tvhshow["episodes"],tvhshow["seasons"])
+	tvhshows_list[index] = media.TvShow(tvhshow["title"],
+		tvhshow["storyline"],
+		tvhshow["poster"],
+		tvhshow["trailer"],
+		tvhshow["duration"],
+		tvhshow["rating"],
+		tvhshow["episodes"],
+		tvhshow["seasons"])
 
 tobias_tomatoes.open_videos_page(movies_list, tvhshows_list)
